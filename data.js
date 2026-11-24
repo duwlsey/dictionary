@@ -254,7 +254,8 @@ globalThis.WORDS = [
   "meaning": "슬픈",
   "aliases": [
    "슬프다",
-   "슬펐다"
+   "슬펐다",
+   "슬퍼요"
   ],
   "source": "워크북",
   "grades": [
@@ -391,7 +392,13 @@ globalThis.WORDS = [
    "도와주다",
    "도와줘",
    "돕는",
-   "도왔"
+   "도왔",
+   "도왔어",
+   "도와준다",
+   "도와줘요",
+   "돕고",
+   "도와",
+   "도우다"
   ],
   "source": "워크북",
   "grades": [
@@ -754,7 +761,9 @@ globalThis.WORDS = [
   "meaning": "행복한; 기쁜",
   "aliases": [
    "행복하다",
-   "기쁘다"
+   "기쁘다",
+   "기뻤다",
+   "행복했다"
   ],
   "source": "워크북",
   "grades": [
@@ -767,7 +776,8 @@ globalThis.WORDS = [
   "meaning": "친절한; 다정한",
   "aliases": [
    "친절하다",
-   "착한"
+   "착한",
+   "친절했다"
   ],
   "source": "워크북",
   "grades": [
@@ -2016,7 +2026,9 @@ globalThis.WORDS = [
    "뿌듯하다",
    "자랑스럽다",
    "뿌듯",
-   "뿌듯해"
+   "뿌듯해",
+   "뿌듯했다",
+   "뿌듯해요"
   ],
   "source": "워크북",
   "grades": [
@@ -2029,7 +2041,9 @@ globalThis.WORDS = [
   "meaning": "걱정되는",
   "aliases": [
    "걱정하다",
-   "걱정돼"
+   "걱정돼",
+   "걱정했다",
+   "걱정됐어요"
   ],
   "source": "워크북",
   "grades": [
@@ -2094,7 +2108,11 @@ globalThis.WORDS = [
   "word": "enjoy",
   "meaning": "즐기다",
   "aliases": [
-   "enjoyed"
+   "enjoyed",
+   "즐겼다",
+   "즐거웠다",
+   "즐겁다",
+   "즐거워요"
   ],
   "source": "워크북",
   "grades": [
@@ -5177,7 +5195,10 @@ globalThis.WORDS = [
  {
   "word": "helpful",
   "meaning": "도움이 되는",
-  "aliases": [],
+  "aliases": [
+   "도움이됐다",
+   "도움이되었다"
+  ],
   "source": "활동 확장",
   "grades": []
  },
@@ -5224,5 +5245,61 @@ globalThis.WORDS = [
   ],
   "source": "활동 확장",
   "grades": []
+ },
+ {
+  "word": "fun",
+  "meaning": "재미; 재미있는",
+  "aliases": [
+   "재미",
+   "재밌다",
+   "재밌어",
+   "재미있다",
+   "재미있었다",
+   "재밌었다",
+   "재미있어요",
+   "재미난",
+   "재밌는"
+  ],
+  "source": "활동 확장",
+  "grades": []
+ },
+ {
+  "word": "interesting",
+  "meaning": "흥미로운; 재미있는",
+  "aliases": [
+   "흥미",
+   "흥미롭다",
+   "흥미로웠다",
+   "흥미로운"
+  ],
+  "source": "활동 확장",
+  "grades": []
+ },
+ {
+  "word": "boring",
+  "meaning": "지루한",
+  "aliases": [
+   "지루하다",
+   "지루했다",
+   "지루해"
+  ],
+  "source": "활동 확장",
+  "grades": []
+ },
+ {
+  "word": "helped",
+  "meaning": "도왔다; 도와주었다 (help의 과거형)",
+  "aliases": [
+   "도왔다",
+   "도와줬다",
+   "도와주었다",
+   "도왔어요",
+   "도와줬어요"
+  ],
+  "source": "워크북",
+  "grades": [
+   "3–4학년",
+   "5–6학년"
+  ]
  }
 ];

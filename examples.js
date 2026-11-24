@@ -1,4 +1,6 @@
 globalThis.EXAMPLES = [
+ ['fun interesting enjoy','It was fun to write a story with my friends.','친구들과 이야기를 쓰는 것이 재미있었어요.','돌아보기 · 16쪽 · 확장 예문'],
+ ['helped help','I helped my friend carry a heavy box.','나는 친구가 무거운 상자를 나르는 것을 도왔어요.','실천 · 확장 예문'],
  ['shoemaker shoe colorful child smile','Kakama made colorful shoes for children.','카카마는 아이들을 위해 알록달록한 신발을 만들었어요.','본문 · 4쪽'],
  ['robber hit hurt attack steal road heartbroken','Robbers attacked Kakama and stole his shoes.','강도들이 카카마를 공격하고 신발을 훔쳤어요.','본문 · 4쪽'],
  ['Tadaho suit meeting rich selfish important leave','Tadaho left because his meeting was important to him.','타다호는 자기 회의가 중요해서 떠났어요.','인물 이해 · 5–6쪽 · 답안 예시'],

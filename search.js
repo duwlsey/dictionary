@@ -18,7 +18,7 @@
    else if(meanings.some(m=>m.includes(q))&&q.length>=2){score=720;reason='meaning';}
    else if(q.length>=3&&w.length>=3){const d=distance(q,w);const max=q.length<5?1:q.length<10?2:Math.floor(q.length*.22);if(d<=max){score=650-d*60;reason='typo';}}
    // Match phrases within a student's question without letting tiny function words dominate.
-   if(!score&&q.length>=4){const keys=[w,...aliases,...meanings].filter(k=>k.length>=3);const hit=keys.find(k=>q.includes(k));if(hit){score=430+Math.min(hit.length,30)*4;reason='context';}}
+   if(!score&&q.length>=3){const keys=[w,...aliases,...meanings].filter(k=>k.length>=(/[가-힣]/.test(k)?2:3));const hit=keys.find(k=>q.includes(k));if(hit){score=430+Math.min(hit.length,30)*4;reason='context';}}
    if(!score&&latinTokens.length>1&&latinTokens.includes(w)&&!generic.has(w)){score=450+w.length;reason='context';}
    return {...e,score,reason};
   }).filter(e=>e.score>0).sort((a,b)=>b.score-a.score||(a.source==='워크북'?-1:1)-(b.source==='워크북'?-1:1)||a.word.length-b.word.length);
